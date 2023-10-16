@@ -25,6 +25,7 @@ components:
         id:
           type: string
           format: uuid
+          maxLength: 36
         product:
           type: string
           pattern: '(\w+\W*)*'
