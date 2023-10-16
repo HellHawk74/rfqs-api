@@ -19,10 +19,10 @@ rules:
             - required: ["enum"]
             - required: ["const"]
             - required: 
-              properties:
-                format:
-                  type: string
-                  enum:
-                    - uuid
-                    - date
-                    - date-time
+                properties:
+                  format:
+                    type: string
+                    enum:
+                      - uuid
+                      - date
+                      - date-time
