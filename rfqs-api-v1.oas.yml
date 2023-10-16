@@ -27,6 +27,7 @@ components:
           format: uuid
         product:
           type: string
+          pattern: '(\w+\W*)*'
           maxLength: 20
         quantity:
           type: integer
@@ -44,3 +45,4 @@ components:
         mode:
           type: string
           pattern: "[A-Z]{3}"
+          maxLength: 3
